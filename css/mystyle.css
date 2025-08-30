@@ -1,0 +1,13 @@
+h3{
+    font-size: 80px;
+    color:red;
+    background-color: yellow;
+}
+h2{
+    font-size: 40px!important;
+    color: pink !important;
+}
+
+p{
+    color: blue;
+}
