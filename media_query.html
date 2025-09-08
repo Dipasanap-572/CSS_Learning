@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: purple;
+            
+        }
+        /* MEDIA QUERIES*/
+
+        /* Mobile first ,we start from the smallest viewport width*/
+        @media (min-width:320px) and (max-width:767px){
+            body{
+                font-size: 20px;
+                background: red;
+
+            }
+            p{
+                display: none;
+            }
+            h1,h3{
+                color: white;
+            }
+            .img1{
+                display: none;
+            }
+        }
+
+            /*from 768px and up*/
+            @media  (min-width: 768px){
+                body{
+                    background-color:burlywood;
+                }
+            }
+
+
+            /*from 1024px and up*/
+            @media  (min-width: 768px){
+                body{
+                    background-color: yellow;
+                }
+            }
+
+            /*from 1224px and up*/
+            @media  (min-width: 1224px){
+                body{
+                    background-color: orange;
+                }
+            }
+
+            /*from 1824px and up*/
+            @media  (min-width: 1824px){
+                body{
+                    background-color: blueviolet;
+                }
+            }
+
+
+
+
+
+
+        
+    </style>
+</head>
+<body>
+    <h1>CSS media queries</h1>
+    <p>The background will chage according to the viewport width change.</p> <br><br>
+    <img class ="img1"src="media_query.jpg" alt="social">
+    
+    <h3> Smartphones - <span class="details"> from 320px and up</span> (min-width: 320px)</h3>
+    <p>BLUE</p> 
+    <br>
+
+     <h3> tablets,ipads(portrait) - <span class="details"> from 768px and up</span></span> (min-width: 768px)</h3>
+    <p>PINK</p> 
+    <br>
+
+     <h3> tablets,ipads(portrait) - <span class="details"> from 1024px and up</span> (min-width: 1024px)</h3>
+    <p>YELLOW</p> 
+    <br>
+
+     <h3> Desktops and  laptops - <span class="details"> from 1224px and up</span> (min-width: 1224px)</h3>
+    <p>RED</p> 
+    <br>
+
+     <h3> Large screens - <span class="details"> from 1824px and up</span> (min-width: 1824px)</h3>
+    <p>AQUA (zoom out if needed [ctrl & - ])</p> 
+    <br>
+
+     <h3> custom media query - <span class="details"> from 320px and up</span> (min-width: 850px) and (max-width:950px)</h3>
+    <p>PURPLE (zoom out if needed [ctrl & - ])</p> 
+    <br>
+    
+</body>
+</html>

@@ -6,14 +6,41 @@
     <title>Document</title>
     <style>
         .rel{
-            position:relative;
+            position:static;
             width: 400px;
             height: 400px;
-            background-color: black;
+            background-color:black;
             top: 30px;
-            left: 100px;
+            left: 400px;
 
         }
+        #tv{
+            position:relative;
+            height: 30px;
+            width: 100px;
+            left: 150px;
+            top: 10px;
+            background-color:yellow;
+    
+         }
+        #sofa{
+            position: absolute;
+            height: 60px;
+            width: 150px;
+            left: 120px;
+            top:280px;
+            background-color: red;
+        }
+        #fridge{
+            position: sticky;
+            height: 100px;
+            width: 50px;
+            right: 120px;
+            bottom: 150px; ;
+        
+            background-color: white;
+        }
+
 
 
     </style>
@@ -21,9 +48,9 @@
 </head>
 <body>
     <div class="rel">
-        <div id="tv"></div>
-        <div id="sofa">tv</div>
-        <div id="fridge">tv</div>
+        <div id="tv">tv</div>
+        <div id="sofa">sofa</div>
+        <div id="fridge">fridge</div>
 
     </div>
     
